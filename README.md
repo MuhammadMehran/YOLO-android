@@ -20,7 +20,7 @@ Application can run either on device or emulator.
 ### Building
 * Open Android Studio, and from the Welcome screen, select checkout project from git.
 
-* Then enter the current URL, and Click OK.
+* Then enter https://github.com/MuhammadMehran/YOLO-android, and Click OK.
 
 * If it asks you to do a Gradle Sync, click OK.
 
