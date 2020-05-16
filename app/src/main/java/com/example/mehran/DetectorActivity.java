@@ -253,4 +253,10 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   protected void setNumThreads(final int numThreads) {
     runInBackground(() -> detector.setNumThreads(numThreads));
   }
+
+  @Override
+  public synchronized void onPause() {
+    finish();
+    super.onPause();
+  }
 }
